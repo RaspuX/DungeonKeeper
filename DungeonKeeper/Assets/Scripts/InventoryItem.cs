@@ -3,11 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System.Threading;
+using TMPro;
 
-public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler ,IEndDragHandler
+public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler ,IEndDragHandler
 {
+    [Header("UI")]
     public Image image;
+    public TMP_Text countText;
+
+    [HideInInspector] public int count = 1;
+    [HideInInspector] public Item item;
     [HideInInspector] public Transform parentAfterDrag;
+
+    public void Start()
+    {
+        InitialiseItem(item);
+    }
+    public void InitialiseItem(Item newItem)
+    {
+        item = newItem;
+        image.sprite = newItem.itemImg;
+        RefreshCount();
+    }
+    public void RefreshCount()
+    {
+        countText.text = count.ToString();
+        bool textActive = count > 1;
+        countText.gameObject.SetActive(textActive);
+    }
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("Begin Drag");

@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: Food
   itemImg: {fileID: 21300000, guid: de24052ce9822ae44b408063fea0b424, type: 3}
+  type: 3
+  value: 0
   itemAmt: 1
+  stackable: 1

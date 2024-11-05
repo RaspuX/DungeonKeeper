@@ -24,6 +24,15 @@ public class MouseLook : MonoBehaviour
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
+
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
     }
 
     // Public method to retrieve the current rotation

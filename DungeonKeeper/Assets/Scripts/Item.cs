@@ -1,14 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Item", menuName = "ScriptableObjects/Items")]
 public class Item : ScriptableObject
 {
-    public string itemID;
+    public int itemID;
     public Sprite itemImg;
+    public ItemType type;
     public int value;
     public int itemAmt;
+
+    public bool stackable = true;
+}
+
+public enum ItemType
+{
+    Material,
+    Tool,
+    Weapon,
+    Healing
 }
 
 public static class ScriptableObjectExtension

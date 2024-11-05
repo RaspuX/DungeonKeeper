@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &794094961768250474
+--- !u!1 &6755782741462598169
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,24 +8,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7654207610475130549}
+  - component: {fileID: 1791357379750168123}
   m_Layer: 7
-  m_Name: AttackPoint
+  m_Name: attack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7654207610475130549
+--- !u!4 &1791357379750168123
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 794094961768250474}
+  m_GameObject: {fileID: 6755782741462598169}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.094, z: -1.448}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.000002905726}
+  m_LocalPosition: {x: 0, y: 0.049, z: -0.049}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40,32 +40,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.31328323
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.31328323
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.31328323
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.00008478016
+      value: 0.21
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.13
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0544
+      value: 0.21
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.0000029206271
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}
       propertyPath: m_LocalRotation.x
@@ -73,15 +61,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0.9999976
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.0021837484
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -104,18 +92,18 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7654207610475130549}
+      addedObject: {fileID: 1791357379750168123}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6985951327058548766}
+      addedObject: {fileID: 6902436757395243681}
   m_SourcePrefab: {fileID: 100100000, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}
 --- !u!1 &3826266769346458215 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}
   m_PrefabInstance: {fileID: 4168301955913600822}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6985951327058548766
+--- !u!114 &6902436757395243681
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,39 +112,39 @@ MonoBehaviour:
   m_GameObject: {fileID: 3826266769346458215}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 992504cb52352524c887b4f6fca97019, type: 3}
+  m_Script: {fileID: 11500000, guid: aa7dd29920ad88b45bb6ae3437ac1818, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBetweenShooting: 2
-  range: 100
-  reloadTime: 2
+  timeBetweenShooting: 1
+  range: 10
+  reloadTime: 1
   timeBetweenShots: 1
   clipSize: 16
   bulletsPerTap: 8
   reservedAmmoCapacity: 32
   allowButtonHold: 1
-  attackPoint: {fileID: 7654207610475130549}
+  attackPoint: {fileID: 1791357379750168123}
   muzzleFlashImage: {fileID: 0}
   flashes: []
   AmmoCountText: {fileID: 0}
-  bulletHoleGraphic: {fileID: 0}
+  bulletHoleGraphic: {fileID: 7010963507305054443, guid: 27e6964e4297dab419a00b4646a1223f, type: 3}
   whatIsEnemy:
     serializedVersion: 2
     m_Bits: 256
   Weapon:
     serializedVersion: 2
     m_Bits: 128
-  normalLocalPosition: {x: 0.00008478016, y: 0, z: 0.0544}
-  aimingLocalPosition: {x: 0, y: 0, z: 0}
+  normalLocalPosition: {x: 0.21, y: -0.13, z: 0.21}
+  aimingLocalPosition: {x: 0.001, y: -0.06973483, z: 0.2378203}
   aimSmoothing: 10
   aiming: 0
   weaponSwayAmount: 0.1
   currentWeaponSwayAmount: 0
   cam: {fileID: 0}
   randomizeRecoil: 1
-  randomRecoilConstraints: {x: 5, y: 5}
+  randomRecoilConstraints: {x: 1, y: 2}
   recoilPattern: []
-  spread: 5
+  spread: 0.1
 --- !u!4 &4490777080496564445 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cb43d02b0bca70141b8c7d31975a07f8, type: 3}

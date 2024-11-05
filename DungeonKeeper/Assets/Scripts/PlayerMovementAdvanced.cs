@@ -103,16 +103,7 @@ public class PlayerMovementAdvanced : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-        }
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-        }
+        
         // when to jump
         if (Input.GetKey(jumpKey) && readyToJump && grounded)
         {
